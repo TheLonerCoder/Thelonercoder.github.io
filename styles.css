@@ -1,0 +1,15 @@
+* {
+  background-repeat: no-repeat;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.blog {
+  background: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+}
+
+.blog h1, .blog h2 {
+  background: rgba(0, 0, 0, 0.5);
+}
+/*# sourceMappingURL=styles.css.map */

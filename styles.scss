@@ -1,0 +1,31 @@
+$faded-black : rgba($color: black, $alpha: 0.5);
+
+* {
+    // background-image: url('./imgs/pexels-eberhard-grossgasteiger-1624496.jpg');
+    // background-size: 100vh;
+    // background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+}
+
+// .backgroundImg {
+//     background-image: url('./imgs/pexels-eberhard-grossgasteiger-1624496.jpg');
+//     background-size: 1000px;
+//     background-repeat: no-repeat;
+// }
+
+
+// body {
+//     // color: white;
+// }
+
+
+.blog {
+    background: $faded-black;
+    height: 100vh;
+
+    h1, h2 {
+        background: $faded-black;
+    }
+}
+

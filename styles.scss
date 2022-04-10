@@ -29,3 +29,46 @@ $faded-black : rgba($color: black, $alpha: 0.5);
     }
 }
 
+
+// .logoHead {
+//     font-size: ;
+
+// }
+
+
+
+#aboutMe {
+    img {
+        max-width: 10%;
+        height: 10%;
+    }
+}
+
+.logoHead {
+    margin-bottom: 50px;
+}
+
+
+#welcome {
+    margin-bottom: 50px;
+}
+
+
+h3 {
+    color: white;
+    background-color: rgba($color: #2d9bf5, $alpha: 1.0);
+    padding:5px 5px;
+    width: 30%;
+}
+
+// div {
+//     background-color: black;
+//     height: 200px;
+//     width: 200px;
+// }
+
+.placeholders {
+    width: 30%;
+    border-radius: 15px;
+    
+}

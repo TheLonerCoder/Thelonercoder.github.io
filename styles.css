@@ -12,4 +12,29 @@
 .blog h1, .blog h2 {
   background: rgba(0, 0, 0, 0.5);
 }
+
+#aboutMe img {
+  max-width: 10%;
+  height: 10%;
+}
+
+.logoHead {
+  margin-bottom: 50px;
+}
+
+#welcome {
+  margin-bottom: 50px;
+}
+
+h3 {
+  color: white;
+  background-color: #2d9bf5;
+  padding: 5px 5px;
+  width: 30%;
+}
+
+.placeholders {
+  width: 30%;
+  border-radius: 15px;
+}
 /*# sourceMappingURL=styles.css.map */

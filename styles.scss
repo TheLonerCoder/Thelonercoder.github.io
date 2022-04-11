@@ -72,3 +72,41 @@ h3 {
     border-radius: 15px;
     
 }
+
+
+.ports {
+    // display: grid;
+    // grid-template-columns: 30%;
+    // grid-template-rows: 25%;
+
+    display: grid; 
+    grid-template-columns: 1fr 3fr 1fr 3fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+
+
+    .projects1 {
+        grid-column-start: 1;
+        grid-column-end: span 2;
+    }
+
+    .projects2 {
+        grid-column-start: 3;
+        grid-column-end: span 2;
+    }
+
+    .projects3 {
+        grid-column-start: 1;
+        grid-column-end: span 2;
+    }
+
+    .projects4 {
+        grid-column-start: 3;
+        grid-column-end: span 2;
+    }
+
+    img {
+        max-width: 30vw;
+    border-radius: 15px;
+
+    }
+}

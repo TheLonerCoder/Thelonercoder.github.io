@@ -37,4 +37,46 @@ h3 {
   width: 30%;
   border-radius: 15px;
 }
+
+.ports {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 3fr 1fr 3fr 1fr;
+      grid-template-columns: 1fr 3fr 1fr 3fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+}
+
+.ports .projects1 {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  -ms-grid-column-span: 2;
+      grid-column-end: span 2;
+}
+
+.ports .projects2 {
+  -ms-grid-column: 3;
+      grid-column-start: 3;
+  -ms-grid-column-span: 2;
+      grid-column-end: span 2;
+}
+
+.ports .projects3 {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  -ms-grid-column-span: 2;
+      grid-column-end: span 2;
+}
+
+.ports .projects4 {
+  -ms-grid-column: 3;
+      grid-column-start: 3;
+  -ms-grid-column-span: 2;
+      grid-column-end: span 2;
+}
+
+.ports img {
+  max-width: 30vw;
+  border-radius: 15px;
+}
 /*# sourceMappingURL=styles.css.map */

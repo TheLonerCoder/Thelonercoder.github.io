@@ -83,4 +83,11 @@ h3 {
 .home-images img {
   border: 1px black ridge;
 }
+
+.Projects h3 {
+  color: black;
+  background-color: white;
+  padding: 5px 5px;
+  width: 30%;
+}
 /*# sourceMappingURL=styles.css.map */

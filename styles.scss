@@ -1,13 +1,15 @@
 $faded-black : rgba($color: black, $alpha: 0.5);
 
-* {
+body * {
     // background-image: url('./imgs/pexels-eberhard-grossgasteiger-1624496.jpg');
     // background-size: 100vh;
     // background-size: cover;
     background-repeat: no-repeat;
     object-fit: contain;
-    font-family: 'Lato', sans-serif;}
-
+    font-family: 'Lato', sans-serif; 
+    // background-color: black;
+}
+    
 // .backgroundImg {
 //     background-image: url('./imgs/pexels-eberhard-grossgasteiger-1624496.jpg');
 //     background-size: 1000px;
@@ -35,12 +37,21 @@ $faded-black : rgba($color: black, $alpha: 0.5);
 
 // }
 
+#portfolio {
+    font-family: 'Lato', sans-serif; 
+    color: white;
+}
 
 
 #aboutMe {
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+
     img {
-        max-width: 10%;
-        height: 10%;
+        max-width: 50%;
+        // height: 10%;
         // float: left;
     }
 

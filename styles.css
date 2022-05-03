@@ -1,4 +1,4 @@
-* {
+body * {
   background-repeat: no-repeat;
   -o-object-fit: contain;
      object-fit: contain;
@@ -14,9 +14,22 @@
   background: rgba(0, 0, 0, 0.5);
 }
 
+#portfolio {
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
+
+#aboutMe {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  -ms-grid-rows: 100%;
+      grid-template-rows: 100%;
+}
+
 #aboutMe img {
-  max-width: 10%;
-  height: 10%;
+  max-width: 50%;
 }
 
 #aboutMe .aboutSec {

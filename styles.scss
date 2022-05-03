@@ -6,7 +6,7 @@ $faded-black : rgba($color: black, $alpha: 0.5);
     // background-size: cover;
     background-repeat: no-repeat;
     object-fit: contain;
-}
+    font-family: 'Lato', sans-serif;}
 
 // .backgroundImg {
 //     background-image: url('./imgs/pexels-eberhard-grossgasteiger-1624496.jpg');
@@ -41,6 +41,12 @@ $faded-black : rgba($color: black, $alpha: 0.5);
     img {
         max-width: 10%;
         height: 10%;
+        // float: left;
+    }
+
+    .aboutSec {
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
@@ -70,7 +76,7 @@ h3 {
 .placeholders {
     width: 30%;
     border-radius: 15px;
-    
+    // margin: 0 auto;
 }
 
 
@@ -107,15 +113,25 @@ h3 {
     img {
         max-width: 30vw;
     border-radius: 15px;
+
+    &:hover {
+        filter: brightness(85%);
+    }
     // box-shadow: 10px 5px 5px red;
     }
 }
 
 .home-images {
+
+    
     img {
     // box-shadow: 5px 5px 5px black;
     border: 1px black ridge;
+    margin-right: 15px;
 
+    &:hover {
+        filter: brightness(85%);
+    }
     }
 }
 

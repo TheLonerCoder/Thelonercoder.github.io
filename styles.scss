@@ -45,19 +45,36 @@ body * {
 
 #aboutMe {
 
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 100%;
+    // display: grid;
+    // grid-template-columns: 1fr 3fr;
+    // grid-template-rows: repeat(2, 1fr);
+    // column-gap: 10px;
+    margin-bottom: 15rem;
 
     img {
-        max-width: 50%;
+        max-width: 10%;
+        // height: 100px;
+        // grid-column-start: 1;
+        // grid-column-end: span 2;
+        // grid-row-start: 1;
+        // grid-row-end: span 2;
+        // grid-area: 1 / 1 / 2 / 2;
         // height: 10%;
-        // float: left;
+        float: left;
+        margin-right: 20px;
     }
 
     .aboutSec {
-        display: flex;
-        flex-wrap: wrap;
+        // display: flex;
+        // flex-wrap: wrap;
+
+        // grid-column-start: 3;
+        // grid-column-end: span 2;
+        // grid-row-start: 1;
+        // grid-row-end: span 2;
+        // grid-area: 1 / 2 / 3 / 3;
+        // background: red;
+        text-align: justify;
     }
 }
 
@@ -85,7 +102,7 @@ h3 {
 // }
 
 .placeholders {
-    width: 30%;
+    width: 25%;
     border-radius: 15px;
     // margin: 0 auto;
 }
@@ -154,3 +171,19 @@ h3 {
         width: 30%;
     }
 }
+
+
+#journey-link {
+
+    color: blue;
+
+    &:hover{
+        color: purple;
+    }
+}
+
+#main-sec {
+    padding: 2rem 6rem 1rem 6rem;
+    font-family: 'Lato', sans-serif !important; 
+}
+

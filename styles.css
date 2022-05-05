@@ -20,24 +20,17 @@ body * {
 }
 
 #aboutMe {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 50% 50%;
-      grid-template-columns: 50% 50%;
-  -ms-grid-rows: 100%;
-      grid-template-rows: 100%;
+  margin-bottom: 15rem;
 }
 
 #aboutMe img {
-  max-width: 50%;
+  max-width: 10%;
+  float: left;
+  margin-right: 20px;
 }
 
 #aboutMe .aboutSec {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  text-align: justify;
 }
 
 .logoHead {
@@ -56,7 +49,7 @@ h3 {
 }
 
 .placeholders {
-  width: 30%;
+  width: 25%;
   border-radius: 15px;
 }
 
@@ -122,5 +115,18 @@ h3 {
   background-color: white;
   padding: 5px 5px;
   width: 30%;
+}
+
+#journey-link {
+  color: blue;
+}
+
+#journey-link:hover {
+  color: purple;
+}
+
+#main-sec {
+  padding: 2rem 6rem 1rem 6rem;
+  font-family: 'Lato', sans-serif !important;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -1,12 +1,19 @@
 $faded-black : rgba($color: black, $alpha: 0.5);
 
-body * {
+
+
+
+body {
     // background-image: url('./imgs/pexels-eberhard-grossgasteiger-1624496.jpg');
     // background-size: 100vh;
     // background-size: cover;
-    background-repeat: no-repeat;
-    object-fit: contain;
+    // background-repeat: no-repeat;
+    // object-fit: contain;
     font-family: 'Lato', sans-serif; 
+    padding: 0px 100px;
+    height: 100%;
+    // background: linear-gradient(45deg, white, darken(white, 10%));
+    // background: linear-gradient();
     // background-color: black;
 }
     
@@ -40,6 +47,7 @@ body * {
 #portfolio {
     font-family: 'Lato', sans-serif; 
     color: white;
+    margin-bottom: 40px;
 }
 
 
@@ -75,6 +83,13 @@ body * {
         // grid-area: 1 / 2 / 3 / 3;
         // background: red;
         text-align: justify;
+        padding-left: 6rem;
+
+
+        p {
+            padding-right: 30vw;
+        }
+        
     }
 }
 
@@ -85,6 +100,7 @@ body * {
 
 #welcome {
     margin-bottom: 50px;
+    font-size: 3rem;
 }
 
 
@@ -102,7 +118,7 @@ h3 {
 // }
 
 .placeholders {
-    width: 25%;
+    width: 20%;
     border-radius: 15px;
     // margin: 0 auto;
 }
@@ -121,6 +137,7 @@ h3 {
     .projects1 {
         grid-column-start: 1;
         grid-column-end: span 2;
+        margin-right: 50px;
     }
 
     .projects2 {
@@ -131,6 +148,7 @@ h3 {
     .projects3 {
         grid-column-start: 1;
         grid-column-end: span 2;
+        margin-right: 50px;
     }
 
     .projects4 {
@@ -139,7 +157,7 @@ h3 {
     }
 
     img {
-        max-width: 30vw;
+        width: 30vw;
     border-radius: 15px;
 
     &:hover {
@@ -152,10 +170,11 @@ h3 {
 .home-images {
 
     
+    
     img {
     // box-shadow: 5px 5px 5px black;
     border: 1px black ridge;
-    margin-right: 15px;
+    margin-right: 30px;
 
     &:hover {
         filter: brightness(85%);
@@ -183,7 +202,71 @@ h3 {
 }
 
 #main-sec {
-    padding: 2rem 6rem 1rem 6rem;
+    // padding: 2rem 6rem 1rem 6rem;
     font-family: 'Lato', sans-serif !important; 
 }
+
+
+footer {
+    margin-top: 5rem;
+}
+
+
+//! Media Queries
+
+
+// @media (max-width: )
+
+
+
+
+
+@media (max-width:540px) {
+
+
+    #main-sec {
+        padding: 0;
+
+    }
+
+    body {
+        padding: 0;
+    }
+
+
+    .home-images {
+
+    
+    
+        img {
+        border: 1px black ridge;
+        margin-right: 15px;
+    
+        &:hover {
+            filter: brightness(85%);
+        }
+        }
+    }
+
+
+
+    .placeholders {
+        width: 100%;
+        border-radius: 15px;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+// @media (min-width:320px) {
+
+// }
+
+
+//?
+//!
+// TODO
+//* ayyyy
 

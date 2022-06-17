@@ -1,4 +1,5 @@
 $faded-black : rgba($color: black, $alpha: 0.5);
+$blue: #2d9bf5;
 
 
 
@@ -12,6 +13,12 @@ body {
     font-family: 'Lato', sans-serif; 
     padding: 0px 100px;
     height: 100%;
+    // background-image: url('./imgs/pexels-josh-sorenson-1478524.jpg');
+    // background-image: url('./imgs/pexels-konevi-3789871.jpg');
+    // background-image: url('./imgs/pexels-magda-ehlers-2114014.jpg');
+    
+    background-size: 100%;
+    
     // background: linear-gradient(45deg, white, darken(white, 10%));
     // background: linear-gradient();
     // background-color: black;
@@ -95,6 +102,26 @@ body {
 
 .logoHead {
     margin-bottom: 50px;
+    background-color: $blue;
+    color: white;
+    width: 80px;
+    height: 70px;
+    padding: 10px;
+}
+
+#navBar {
+    display: inline;
+
+    li {
+        list-style: none;
+        // display: inline;
+        margin-bottom: 10px;
+    }
+    
+    a {
+        text-decoration: none;
+
+    }
 }
 
 
@@ -120,6 +147,9 @@ h3 {
 .placeholders {
     width: 20%;
     border-radius: 15px;
+    padding: 6px;
+    background-color: rgba($color: $blue, $alpha: 0.75);
+    opacity: 1;
     // margin: 0 auto;
 }
 
@@ -173,7 +203,7 @@ h3 {
     
     img {
     // box-shadow: 5px 5px 5px black;
-    border: 1px black ridge;
+    // border: 1px black ridge;
     margin-right: 30px;
 
     &:hover {
@@ -204,6 +234,7 @@ h3 {
 #main-sec {
     // padding: 2rem 6rem 1rem 6rem;
     font-family: 'Lato', sans-serif !important; 
+    // display: inline;
 }
 
 
@@ -254,6 +285,9 @@ footer {
         width: 100%;
         border-radius: 15px;
         margin-bottom: 20px;
+        // padding: 20px;
+        // background-color: blue;
+        // margin: 20px;
     }
 }
 

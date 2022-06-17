@@ -1,0 +1,59 @@
+$blue: #2d9bf5;
+
+
+
+#gitBtn {
+    background-color: red;
+}
+
+#demoBtn {
+    background-color: green;
+}
+
+button {
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 20px;
+    color: white;
+    border: 0;
+    font-family: 'Lato', sans-serif; 
+    font-weight: bold;
+    font-size: medium;
+    // box-shadow: black 1px 1px 2px;
+
+    &:hover {
+        opacity: 0.7;
+    }
+}
+
+#foundersHead {
+    
+    
+    
+    #founders {
+        
+        width: 300px;
+    }
+}
+
+.projectInfo {
+
+    h3 {
+        padding:5px 5px;    }
+}
+
+
+i {
+    margin-right: 8px;
+}
+
+
+
+img {
+    display: block;
+}
+
+#projectAbout {
+    border-left: black solid 2px;
+    padding-left: 10px;
+}

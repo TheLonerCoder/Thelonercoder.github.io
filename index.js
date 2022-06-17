@@ -10,7 +10,7 @@ function changeBackground() {
 
         document.body.style.background = '#1E1E1E';
         document.body.style.color = 'white';
-        document.body.a.style.color = '';
+        // document.body.a.style.color = 'black';
         // document.getElementById(`portHeading`).style.backgroundColor = 'grey';
 
     }
